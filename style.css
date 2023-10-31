@@ -1,0 +1,143 @@
+/* jumbotron */
+*{
+  scroll-behavior: smooth;
+}
+.jumbotron {
+  padding: 12rem 1rem;
+  background-color: #fffffff5;
+  background-image: url(img/giphyyyy.gif);
+  background-size: cover;
+  margin-top: -75px;
+  font-family: Viga;
+}
+
+.jumbotron .display-6 {
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-family: Viga;
+  font-size: 50px;
+}
+
+.jumbotron .display-5 {
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  margin-top: 30px;
+  font-family: Viga;
+  font-size: 20px;
+}
+
+/* akhir jumbotron */
+
+/* navbar */
+.navbar-brand {
+  font-family: Viga;
+  font-size: 32px;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid rgb(39, 79, 255);
+}
+
+.nav-item {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-family: Viga;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.navbar.sticky {
+  background: rgba(0, 0, 0, 0.336);
+  padding: 2px;
+}
+/* akhir navbar */
+
+/* info panel */
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  margin-top: -100px;
+  background-color: white;
+  padding: 30px;
+}
+
+.info-panel img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.info-panel h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: Viga;
+}
+
+.info-panel p {
+  font-size: 15px;
+}
+
+
+/* akhir info panel */
+
+/* profile */
+.col h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 40px;
+  font-family: Viga;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+
+
+/* akhir profile */
+
+/* gallery */
+.col h7 {
+  text-transform: uppercase;
+  font-family: Viga;
+  padding: 9px;
+  font-size: 20px;
+}
+
+.product img {
+  width: 300px;
+  height: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+/* akhir gallery */
+
+/* activities */
+.col-4 h5 {
+  text-transform: uppercase;
+  font-family: Viga;
+  text-align: center;
+}
+
+.col-4 p {
+  text-align: center;
+}
+/* akhir activities */
+
+/* contact */
+
+/* akhir contact */
+
+/* footer */
+.col-12 p {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: -20px;
+}
+/* akhir footer */
